@@ -1,0 +1,49 @@
+.h1{
+    font-weight: bold;
+}
+
+.containerDetail{
+    margin-bottom: 0;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 50px;
+    text-align: center;
+    border: solid black;
+    border-radius: 1rem;
+
+    
+}.text-p{
+    color: black;
+    margin-left: 5px;
+    margin-top: 23px;
+}
+.img{
+    border: solid black;
+    border-radius: 1rem;
+}
+
+.text-container{ 
+   display: flex;
+   flex-direction: row; 
+}
+.button-detail{
+    
+    height: 36px;
+    border-radius: 10px;
+    background-color: rgb(175, 82, 82);
+    color: #ffff;
+    font-weight: 700;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    transform: translate(0);
+      transition: transform 0.25s ease-out;
+}
+
+.button-detail:hover{
+    background-color: rgba(240, 255, 241, 0.171);
+    transform: scale(1.05);
+    color: black;
+  
+  
+  }

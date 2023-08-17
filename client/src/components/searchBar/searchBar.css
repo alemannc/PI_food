@@ -1,0 +1,41 @@
+.input {
+    font-size: 1.25rem;
+    background-color: white;
+    color: black;
+    border-radius: 1rem;
+    border: .2rem solid gold;
+
+
+    font-family: "Times New Roman";
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    background-color: gold;
+    padding: 0.5rem;
+    border: 1px solid gold;
+    font-size: 1rem;
+    font-family: "Times New Roman";
+    transition: background-color 0.5s;
+}
+
+.search:hover{
+    border: 2px solid gold;
+    background-color: black;
+    color: gold;
+}
+
+.buttonContainer{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.searchBarContainer{
+    display: flex;
+    flex-direction: column;
+}

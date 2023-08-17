@@ -1,0 +1,95 @@
+.error{
+  color: #ff0019;
+}
+.dietsContainar{
+  display: flex;
+  flex-direction: column;
+
+}
+.form-container {
+  background-color: rgb(250, 165, 165);
+  border-radius: 10px;
+  padding: 20px;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+ 
+margin-top: 150px;
+width: 500px;
+height: 650px;
+margin-left: 660px;
+}
+.button_container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+h1 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff;
+  display: block; /* Añadido para separar las etiquetas de los campos de entrada */
+}
+
+input[type="text"],
+select {
+  padding: 8px;
+  margin-bottom: 10px;
+  width: 300px;
+  border: none; /* Cambiado para eliminar el borde negro */
+}
+
+select {
+  width: 100%; /* Cambiado para hacer el menú desplegable más ancho */
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #0072b3;
+  color: #fff;
+  border: solid rgb(15, 55, 82);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.menu-desplegable {
+  display: flex;
+  flex-direction: column; /* Cambiado a column para que las etiquetas y el menú desplegable se muestren en columnas separadas */
+  width: 300px; /* Ajusta el ancho del contenedor para que coincida con el ancho de los campos de entrada */
+  margin-bottom: 10px; /* Añadido para separar el menú desplegable de otros elementos */
+}
+
+button[type="submit"]:hover {
+  background-color: #00568c;
+}
+
+.p-form{
+  color: #f3f3f3;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+
+.diets-container{
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  justify-content: space-between;
+  font-family: "Times New Roman";
+}
+.divBroccoli{
+  width: 100%;
+  height: 100%;
+}

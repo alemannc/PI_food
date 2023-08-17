@@ -1,0 +1,33 @@
+.landing-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image:url("../../img/comida3.png");
+  background-size: 100%;
+   height: 100vh;
+    width: 100%;
+}
+.landingButton{
+  margin-top: 30%;
+  height: 36px;
+  border-radius: 10px;
+  background-color: brown;
+  color: #ffff;
+  font-weight: 700;
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+  transform: translate(0);
+    transition: transform 0.25s ease-out;
+}
+.landingButton:hover{
+  background-color: rgba(240, 248, 255, 0.171);
+  transform: scale(1.05);
+  color: black;
+
+
+}
+
+body {
+    font-size: 100%; /* O el tamaño de fuente que desees */
+  }
